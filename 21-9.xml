@@ -1,0 +1,74 @@
+<theme>
+    <variables>
+       
+    </variables>
+
+    <view name="system">
+        <image name="mlcircle">
+            <pos>0.04 0.74</pos>
+            <size>0.10 .2333333</size>
+        </image> 
+        <image name="mlcirclefill">
+            <pos>0.04 0.74</pos>
+            <size>0.1 0.2333333</size>
+        </image> 
+        <image name="mlcircle1">
+            <pos>0.041 0.741</pos>
+            <size>0.1 0.2333333</size>
+        </image>
+        <image name="mrcircle">
+            <pos>0.9615 0.74</pos>
+            <size>0.1 0.2333333</size>
+        </image> 
+        <image name="mrcirclefill">
+            <pos>0.9615 0.74</pos>
+            <size>0.1 0.2333333</size>
+        </image> 
+        <image name="mrcircle1">
+            <pos>0.96225 0.741</pos>
+            <size>0.1 0.2333333</size>
+        </image>
+        <image name="es">
+            <pos>0.09 0.855</pos>
+            <maxSize>0.125 0.18</maxSize>
+        </image> 
+        <image name="es1">
+            <pos>0.09 0.856</pos>
+            <maxSize>0.125 0.18</maxSize>
+        </image>
+        <text name="gamecount">
+            <pos>0.9125 0.785</pos>
+            <size>0.08 0.075</size>
+        </text>
+        <text name="gamecountlbl">
+            <pos>0.9125 0.845</pos>
+            <size>0.12 0.075</size>
+        </text>
+        <text name="gamecount1">
+            <pos>0.9135 0.786</pos>
+            <size>0.08 0.075</size>
+        </text>
+        <text name="gamecountlbl1">
+            <pos>0.9135 0.846</pos>
+            <size>0.12 0.075</size>
+        </text>
+    </view>
+<variant name="text">
+    <view name="gamelist">
+        <badges name="badges">
+            <pos>0.76 0.67</pos>
+            <size>0.39 0.11</size>
+            </badges>
+            <video name="gameboxart">
+                <videoCornerRadius>0.04</videoCornerRadius>
+                <imageCornerRadius>0.04</imageCornerRadius>
+            </video>
+            <image name="background2">
+                <size>1.5 2</size>
+            </image>
+            <textlist name="gamelist_textlist">
+                <selectorHorizontalOffset>-0.006</selectorHorizontalOffset>
+            </textlist>
+    </view>
+      </variant>  
+</theme>

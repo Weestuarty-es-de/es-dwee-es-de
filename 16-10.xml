@@ -1,0 +1,60 @@
+<theme>
+   
+    <variables>
+       
+    </variables>
+
+    <view name="system">
+        <text name="source">
+            <pos>0.5 0.9</pos>
+            <size>0.7 40.09</size>
+        </text>
+        <text name="sourceback">
+            <pos>0.5015 0.9015</pos>
+        </text>
+        <image name="mlcircle">
+            <pos>0.04 0.76</pos>
+            <size>0.10 .16</size>
+        </image> 
+        <image name="mlcirclefill">
+            <pos>0.04 0.76</pos>
+            <size>0.1 0.16</size>
+        </image> 
+        <image name="mlcircle1">
+            <pos>0.041 0.761</pos>
+            <size>0.1 0.16</size>
+        </image>
+        <image name="mrcircle">
+            <pos>0.9615 0.76</pos>
+            <size>0.1 0.16</size>
+        </image> 
+        <image name="mrcirclefill">
+            <pos>0.9615 0.76</pos>
+            <size>0.1 0.16</size>
+        </image> 
+        <image name="mrcircle1">
+            <pos>0.96225 0.761</pos>
+            <size>0.1 0.16</size>
+        </image>
+    </view>
+<variant name="text">
+    <view name="gamelist">
+        <text name="source">
+            <pos>0.74 0.325</pos>
+            <size>0.475 0.09</size>
+        </text>
+            <text name="source2">
+                <pos>-0.21 0.325</pos>
+                <size>0.475 0.09</size>
+            </text>
+        <textlist name="gamelist_textlist">
+            <selectorHorizontalOffset>-0.006</selectorHorizontalOffset>
+        </textlist>
+        <badges name="badges">
+            <pos>0.76 0.686</pos>
+            <size>0.39 0.15</size>
+            </badges>
+            
+    </view>
+        </variant>
+</theme>

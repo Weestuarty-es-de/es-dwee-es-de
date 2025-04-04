@@ -1,0 +1,9 @@
+<theme>
+    <include>./../theme.xml</include>
+
+        <view name="gamelist">
+            <text name="source">
+            <metadata>sourceSystemFullname</metadata>
+            </text>
+        </view>
+</theme>

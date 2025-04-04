@@ -1,0 +1,16 @@
+<theme>
+   <variables>
+      <systemName>Wrestling Games</systemName>
+      <systemDescription>From classic beat-em up arcade style fighters to creating your own wrestler these games cover it all.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>1983</systemReleaseYear>
+      <systemReleaseDate>&#032;</systemReleaseDate>
+      <systemReleaseDateFormated>&#032;</systemReleaseDateFormated>
+      <systemHardwareType>Collection</systemHardwareType>
+      <systemColor>777777</systemColor>
+      <systemColorPalette1>568233</systemColorPalette1>
+      <systemColorPalette2>79777A</systemColorPalette2>
+      <systemColorPalette3>613f19</systemColorPalette3>
+      <systemColorPalette4>cc9e48</systemColorPalette4>
+   </variables>
+</theme>

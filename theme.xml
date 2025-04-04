@@ -1,0 +1,1103 @@
+<theme>
+
+    <include>./system/metadata/_default.xml</include>
+    <include>./system/metadata/${system.theme}.xml</include>
+    <include>./system/metadata-custom/${system.theme}.xml</include>
+    <aspectRatio name="4:3">
+        <include>./4-3.xml</include>
+    </aspectRatio>
+    <aspectRatio name="16:10">
+        <include>./16-10.xml</include>
+    </aspectRatio>
+    <aspectRatio name="19.5:9">
+        <include>./195-9.xml</include>
+    </aspectRatio>
+    <aspectRatio name="21:9">
+        <include>./21-9.xml</include>
+    </aspectRatio>
+
+    <colorScheme name="weeblue">
+        <variables>
+            <glowColor>34BEED</glowColor>
+            <glowColorEnd>34BEED</glowColorEnd>
+            <backColor>108FBA</backColor>
+            <gridColor>CCCCCC</gridColor>
+            <gridColorEnd>CCCCCC</gridColorEnd>
+            <textColor>000000</textColor>
+            <badgeColor>cccccc</badgeColor>
+            <textselectColor>000000</textselectColor>
+            <baseColor>FFFFFF</baseColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="weestuarty">
+        <variables>
+            <glowColor>d4af37</glowColor>
+            <glowColorEnd>d4af37</glowColorEnd>
+            <backColor>A67c00</backColor>
+            <gridColor>444444</gridColor>
+            <gridColorEnd>444444</gridColorEnd>
+            <textColor>d4af37</textColor>
+            <badgeColor>a67c00</badgeColor>
+            <textselectColor>000000</textselectColor>
+            <baseColor>333333</baseColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="weeeilidh">
+        <variables>
+            <glowColor>BE013C</glowColor>
+            <glowColorEnd>BE013c</glowColorEnd>
+            <backColor>950217</backColor>
+            <gridColor>450c1c</gridColor>
+            <gridColorEnd>450c1c</gridColorEnd>
+            <textColor>BE013C</textColor>
+            <badgeColor>be013c</badgeColor>
+            <textselectColor>000000</textselectColor>
+            <baseColor>1B040b</baseColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="famiwii">
+        <variables>
+            <glowColor>a57a4f</glowColor>
+            <glowColorEnd>a57a4f</glowColorEnd>
+            <backColor>821122</backColor>
+            <gridColor>561420</gridColor>
+            <gridColorEnd>561420</gridColorEnd>
+            <textColor>a57a4f</textColor>
+            <badgeColor>a57a4f</badgeColor>
+            <textselectColor>561420</textselectColor>
+            <baseColor>662b32</baseColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="retro">
+        <variables>
+            <glowColor>5E3427</glowColor>
+            <glowColorEnd>5e3427</glowColorEnd>
+            <backColor>ca9852</backColor>
+            <gridColor>d3c09f</gridColor>
+            <gridColorEnd>d3c09f</gridColorEnd>
+            <textColor>5E3427</textColor>
+            <badgeColor>d3c09f</badgeColor>
+            <textselectColor>d3c09f</textselectColor>
+            <baseColor>D3C09F</baseColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="shorty">
+        <variables>
+            <glowColor>c758e6</glowColor>
+            <glowColorEnd>1b9fff</glowColorEnd>
+            <backColor>1b9FFF</backColor>
+            <gridColor>c758b6</gridColor>
+            <gridColorEnd>1b9FFF</gridColorEnd>
+            <textColor>c758e6</textColor>
+            <badgeColor>1b9FFF</badgeColor>
+            <textselectColor>000000</textselectColor>
+            <baseColor>111111</baseColor>
+        </variables>
+    </colorScheme>
+
+    <fontSize name="medium">
+    <variables>
+        <textlist>0.04</textlist>
+        <gameimage>0.04</gameimage>
+        <gamecount>0.04</gamecount>
+        <helpfont>0.035</helpfont>
+        <gametitle>0.06</gametitle>
+        <sourcefont>0.04</sourcefont>
+        <wiifontb>./assets/fonts/contb.ttf</wiifontb>
+        <wiifontl>./assets/fonts/contl.ttf</wiifontl>
+        <wiifontm>./assets/fonts/contm.ttf</wiifontm>
+    </variables>
+   </fontSize>
+   <fontSize name="large">
+    <variables>
+        <textlist>0.0485</textlist>
+        <gameimage>0.05</gameimage>
+        <helpfont>0.045</helpfont>
+        <gamecount>0.0475</gamecount>
+        <gametitle>0.07</gametitle>
+        <sourcefont>0.045</sourcefont>
+        <wiifontb>./assets/fonts/contb.ttf</wiifontb>
+        <wiifontl>./assets/fonts/contl.ttf</wiifontl>
+        <wiifontm>./assets/fonts/contm.ttf</wiifontm>
+    </variables>
+   </fontSize>
+<variant name="all">
+    <view name="system, gamelist">
+       
+       
+        <helpsystem name="help1">
+            <textColor>${textColor}</textColor>
+            <iconColor>${textColor}</iconColor>
+            <fontPath>${wiifontb}</fontPath>
+            <fontSize>${helpfont}</fontSize>
+            <entryRelativeScale>0.7</entryRelativeScale>
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.975</pos>
+        </helpsystem>
+        <helpsystem name="help">
+            <textColor>${glowColor}</textColor>
+            <iconColor>${glowColor}</iconColor>
+            <fontPath>${wiifontb}</fontPath>
+            <fontSize>${helpfont}</fontSize>
+            <entryRelativeScale>0.7</entryRelativeScale>
+            <origin>0.5 0.5</origin>
+            <pos>0.501 0.976</pos>
+        </helpsystem>
+    </view>
+   
+    <view name="system">
+        <grid name="system_grid">
+            <pos>0.025 0.004</pos>
+            <origin>0 0</origin>
+            <size>1 0.75</size>
+            <staticImage>./assets/webp/${system.theme}.webp</staticImage>
+            <selectorImage>./assets/images/wiigrid.svg</selectorImage>
+            <selectorColor>${glowColorEnd}</selectorColor>
+            <selectorColorEnd>${glowColor}</selectorColorEnd>
+            <backgroundImage>./assets/images/wiigridback.svg</backgroundImage>
+            <backgroundColor>${gridColor}</backgroundColor>
+            <backgroundColorEnd>${gridColorEnd}</backgroundColorEnd>
+            <backgroundRelativeScale>0.975</backgroundRelativeScale>
+            <selectorLayer>bottom</selectorLayer>
+            <selectorRelativeScale>1</selectorRelativeScale>
+            <itemSize>0.23 0.23</itemSize>
+            <text>${system.fullName}</text>
+            <rowTransitions>instant</rowTransitions>
+            <textRelativeScale>0.9</textRelativeScale>
+            <textColor>${textColor}</textColor>
+        </grid>  
+        <image name="background">
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./assets/images/fundo.png</path>
+            <tile>true</tile>
+            <tileSize>0.1 0.1</tileSize>
+            <color>${baseColor}</color>
+            <zIndex>1</zIndex>
+        </image> 
+        <image name="menubottomfill">
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./assets/images/wiifill.svg</path>
+            <color>${baseColor}</color>
+            <zIndex>2</zIndex>
+        </image>
+        <image name="mline">
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./assets/images/wiioutline.svg</path>
+            <color>${glowColor}</color>
+            <zIndex>3</zIndex>
+        </image> 
+        <image name="mline1">
+            <pos>0.001 0.001</pos>
+            <size>1 1</size>
+            <path>./assets/images/wiioutline.svg</path>
+            <color>${backColor}</color>
+            <zIndex>2</zIndex>
+        </image> 
+        <image name="mlcirclefill">
+            <pos>0.04 0.75</pos>
+            <size>0.1 0.17777</size>
+            <path>./assets/images/wiicirclefill.svg</path>
+            <color>${baseColor}</color>
+            <zIndex>2</zIndex>
+        </image>
+        <image name="mlcircle">
+            <pos>0.04 0.75</pos>
+            <size>0.1 0.17777</size>
+            <path>./assets/images/wiicircle.svg</path>
+            <color>${glowColor}</color>
+            <zIndex>4</zIndex>
+        </image> 
+        <image name="mlcircle1">
+            <pos>0.041 0.751</pos>
+            <size>0.1 0.17777</size>
+            <path>./assets/images/wiicircle.svg</path>
+            <color>${backColor}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="mrcirclefill">
+            <pos>0.96 0.75</pos>
+            <size>0.1 0.17777</size>
+            <origin>1 0</origin>
+            <path>./assets/images/wiicirclefill.svg</path>
+            <color>${baseColor}</color>
+            <zIndex>2</zIndex>
+        </image>
+        <image name="mrcircle">
+            <pos>0.962 0.75</pos>
+            <size>0.1 0.17777</size>
+            <origin>1 0</origin>
+            <path>./assets/images/wiicircle.svg</path>
+            <color>${glowColor}</color>
+            <zIndex>4</zIndex>
+        </image> 
+        <image name="mrcircle1">
+            <pos>0.96275 0.751</pos>
+            <size>0.1 0.17777</size>
+            <origin>1 0</origin>
+            <path>./assets/images/wiicircle.svg</path>
+            <color>${backColor}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="es">
+            <pos>0.09 0.84</pos>
+            <maxSize>0.1 0.15</maxSize>
+            <origin>0.5 0.5</origin>
+            <path>./assets/images/es.svg</path>
+            <color>${glowColor}</color>
+            <zIndex>9</zIndex>
+        </image> 
+        <image name="es1">
+            <pos>0.091 0.841</pos>
+            <maxSize>0.1 0.15</maxSize>
+            <origin>0.5 0.5</origin>
+            <path>./assets/images/es.svg</path>
+            <color>${backColor}</color>
+            <zIndex>8</zIndex>
+        </image> 
+        <text name="gamecount">
+            <systemdata>gamecountGamesNoText</systemdata>
+            <fontSize>${gamecount}</fontSize>
+            <pos>0.913 0.775</pos>
+            <origin>0.5 0</origin>
+            <size>0.08 0.075</size>
+            <fontPath>${wiifontb}</fontPath>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${glowColor}</color>
+            <zIndex>9</zIndex>
+        </text>
+        <text name="gamecountlbl">
+            <text>Games</text>
+            <fontSize>${gamecount}</fontSize>
+            <pos>0.9115 0.825</pos>
+            <origin>0.5 0</origin>
+            <size>0.08 0.075</size>
+            <fontPath>${wiifontb}</fontPath>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${glowColor}</color>
+            <zIndex>9</zIndex>
+        </text>
+        <text name="gamecount1">
+            <systemdata>gamecountGamesNoText</systemdata>
+            <fontSize>${gamecount}</fontSize>
+            <pos>0.914 0.776</pos>
+            <origin>0.5 0</origin>
+            <size>0.08 0.075</size>
+            <fontPath>${wiifontb}</fontPath>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${backColor}</color>
+            <zIndex>8</zIndex>
+        </text>
+        <text name="gamecountlbl1">
+            <text>Games</text>
+            <fontSize>${gamecount}</fontSize>
+            <pos>0.91275 0.826</pos>
+            <origin>0.5 0</origin>
+            <size>0.08 0.075</size>
+            <fontPath>${wiifontb}</fontPath>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${backColor}</color>
+            <zIndex>8</zIndex>
+        </text>
+        <text name="source">
+            <text>${systemName}</text>
+            <fontSize>${gametitle}</fontSize>
+            <rotation>0</rotation>
+            <pos>0.5 0.9</pos>
+            <size>0.7 40.09</size>
+            <origin>0.5 0.5</origin>
+            <fontPath>${wiifontm}</fontPath>
+            <lineSpacing>0.856</lineSpacing>
+            <letterCase>uppercase</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${textColor}</color>
+            <zIndex>9</zIndex>
+        </text>
+        <text name="sourceback">
+            <text>${systemName}</text>
+            <fontSize>${gametitle}</fontSize>
+            <rotation>0</rotation>
+            <pos>0.5015 0.9015</pos>
+            <size>0.7 40.09</size>
+            <origin>0.5 0.5</origin>
+            <fontPath>${wiifontm}</fontPath>
+            <lineSpacing>0.856</lineSpacing>
+            <letterCase>uppercase</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${backColor}</color>
+            <zIndex>8</zIndex>
+        </text>
+        <clock name="clock">
+            <fontSize>0.1</fontSize>
+            <rotation>0</rotation>
+            <pos>0.5 0.775</pos>
+            <size>0.7 0.09</size>
+            <origin>0.5 0.5</origin>
+        <scope>view</scope>
+            <fontPath>./assets/fonts/digital.ttf</fontPath>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${textColor}88</color>
+        </clock>
+        <systemstatus name="first">
+        <pos>0.35 0.79</pos>
+        <origin>0 0</origin>
+        <color>${textColor}88</color>
+        <entries>wifi, bluetooth</entries>
+        <scope>view</scope>
+        </systemstatus>
+<systemstatus name="second">
+        <pos>0.65 0.79</pos>
+        <origin>1 0</origin>
+        <color>${textColor}88</color>
+        <entries>battery</entries>
+        <scope>view</scope>
+        </systemstatus>
+        <systemstatus name="menustatus">
+        <pos>0.98 0.0075</pos>
+        <origin>1 0</origin>
+        <color>${textColor}</color>
+        <entries>all</entries>
+        <scope>menu</scope>
+        </systemstatus>
+        <clock name="menuclock">
+            <fontSize>0.04</fontSize>
+            <rotation>0</rotation>
+            <pos>0.01 0.005</pos>
+            <size>0.05 0.04</size>
+            <origin>0 0</origin>
+            <scope>menu</scope>
+            <fontPath>./assets/fonts/digital.ttf</fontPath>
+            <horizontalAlignment>right</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${textColor}</color>
+        </clock>
+    </view>
+    </variant>
+    <variant name="text">
+    <view name="gamelist">
+       
+        <textlist name="gamelist_textlist">
+            <pos>0.06 0.0465</pos>
+            <size>0.44 0.655</size>
+            <fontSize>${textlist}</fontSize>
+            <selectorColor>${glowColor}</selectorColor>
+            <selectorWidth>0.446</selectorWidth>
+            <selectorHorizontalOffset>-0.0055</selectorHorizontalOffset>
+            <selectedColor>${textselectColor}</selectedColor>
+            <primaryColor>${textColor}</primaryColor>
+            <secondaryColor>${textColor}</secondaryColor>
+            <systemNameSuffix>false</systemNameSuffix>
+            <fontPath>${wiifontm}</fontPath>
+            <zIndex>7</zIndex>
+        </textlist>
+        <!--<image name="boxart">
+            <imageType>miximage</imageType>
+            <pos>0.75 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.5 0.6</maxSize>
+        </image>-->
+        <image name="menubottomfill">
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./assets/images/gameline.svg</path>
+            <color>${glowColor}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="menubottomfill1">
+            <pos>0 0.001</pos>
+            <size>1 1</size>
+            <path>./assets/images/gameline.svg</path>
+            <color>${backColor}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="backgroundbottom">
+            <pos>0 0.75</pos>
+            <size>1 0.25</size>
+            <path>./assets/images/fundo.png</path>
+            <tile>true</tile>
+            <tileSize>0.1 0.1</tileSize>
+            <color>${baseColor}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="background">
+            <pos>0.5 0.375</pos>
+            <origin>0.5 0.5</origin>
+            <size>1.5 2</size>
+            <rotation>-30</rotation>
+            <path>./assets/images/space.png</path>
+            <opacity>0.5</opacity>
+            <tile>true</tile>
+            <tileSize>0.1 0.1</tileSize>
+            <color>${baseColor}</color>
+            <zIndex>0</zIndex>
+        </image>
+        <image name="background2">
+            <pos>0.5 0.375</pos>
+            <origin>0.5 0.5</origin>
+            <size>1.5 1.75</size>
+            <rotation>-30</rotation>
+            <path>./assets/images/fundo.png</path>
+            <opacity>0.5</opacity>
+            <tile>true</tile>
+            <tileSize>0.1 0.1</tileSize>
+            <color>${baseColor}</color>
+            <zIndex>0</zIndex>
+        </image>
+        <image name="syslogo1">
+            <pos>0.1 0.1</pos>
+            <maxSize>0.2 0.1</maxSize>
+            <rotation>-30</rotation>
+            <path>./system/logos/system-logo-white/${system.theme}.svg</path>
+            <color>${glowColor}66</color>
+            <zIndex>1</zIndex>
+        </image>
+        <image name="syslogo2">
+            <pos>0.175 0.25</pos>
+            <maxSize>0.4 0.2</maxSize>
+            <rotation>-30</rotation>
+            <path>./system/logos/system-logo-white/${system.theme}.svg</path>
+            <color>${glowColor}66</color>
+            <zIndex>1</zIndex>
+        </image>
+        <image name="syslogo3">
+            <pos>0.3 0.15</pos>
+            <maxSize>0.1 0.05</maxSize>
+            <rotation>-30</rotation>
+            <path>./system/logos/system-logo-white/${system.theme}.svg</path>
+            <color>${glowColor}66</color>
+            <zIndex>1</zIndex>
+        </image>
+        <image name="syslogo4">
+            <pos>0.5 0.3</pos>
+            <maxSize>0.2 0.1</maxSize>
+            <rotation>-30</rotation>
+            <path>./system/logos/system-logo-white/${system.theme}.svg</path>
+            <color>${glowColor}66</color>
+            <zIndex>1</zIndex>
+        </image>
+        <image name="syslogo5">
+            <pos>0.6 0.47</pos>
+            <maxSize>0.4 0.2</maxSize>
+            <rotation>-30</rotation>
+            <path>./system/logos/system-logo-white/${system.theme}.svg</path>
+            <color>${glowColor}66</color>
+            <zIndex>1</zIndex>
+        </image>
+        <image name="syslogo6">
+            <pos>0.4 0.65</pos>
+            <maxSize>0.1 0.05</maxSize>
+            <rotation>-30</rotation>
+            <path>./system/logos/system-logo-white/${system.theme}.svg</path>
+            <color>${glowColor}66</color>
+            <zIndex>1</zIndex>
+        </image>
+        <image name="textbox">
+            <pos>0.2775 0.375</pos>
+            <size>0.5 0.7</size>
+            <origin>0.5 0.5</origin>
+            <path>./assets/images/wiitextback.svg</path>
+            <color>${baseColor}</color>
+            <zIndex>6</zIndex>
+        </image>
+        <image name="textboxtop">
+            <pos>0.2775 0.375</pos>
+            <size>0.5 0.7</size>
+            <origin>0.5 0.5</origin>
+            <path>./assets/images/wiitextout.svg</path>
+            <color>${baseColor}</color>
+            <zIndex>8</zIndex>
+        </image>
+        <image name="textboxglow">
+            <pos>0.2775 0.375</pos>
+            <size>0.5 0.7</size>
+            <origin>0.5 0.5</origin>
+            <path>./assets/images/wiitextglow.svg</path>
+            <color>${glowColor}</color>
+            <zIndex>7</zIndex>
+        </image>
+        <image name="textboxglow1">
+            <pos>0.2785 0.376</pos>
+            <size>0.5 0.7</size>
+            <origin>0.5 0.5</origin>
+            <path>./assets/images/wiitextglow.svg</path>
+            <color>${backColor}</color>
+            <zIndex>6</zIndex>
+        </image>
+        <image name="gamebox">
+            <pos>0.76 0.345</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.4 0.5</size>
+            <path>./assets/images/wiigamebox.svg</path>
+            <color>${baseColor}</color>
+            <zIndex>7</zIndex>
+        </image>
+        <image name="gameboxback">
+            <pos>0.76 0.345</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.4 0.5</size>
+            <path>./assets/images/wiigameback.svg</path>
+            <color>${glowColor}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="gameboxback1">
+            <pos>0.761 0.346</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.4 0.5</size>
+            <path>./assets/images/wiigameback.svg</path>
+            <color>${backColor}</color>
+            <zIndex>4</zIndex>
+        </image>
+       
+        <video name="gameboxart">
+            <pos>0.76 0.3125</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.375 0.39</size>
+            <videoCornerRadius>0.045</videoCornerRadius>
+            <imageCornerRadius>0.045</imageCornerRadius>
+            <imageType>titlescreen,screenshot,fanart,cover</imageType>
+            <zIndex>6</zIndex>
+        </video>
+        <image name="gameboxpm">
+            <pos>0.76 0.11</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.2 0.2</maxSize>
+            <imageType>physicalmedia</imageType>
+            <zIndex>4</zIndex>
+        </image>
+        <!--<text name="players">
+            <metadata>players</metadata>
+            <fontSize>${gameimage}</fontSize>
+            <pos>0.695 0.5</pos>
+            <size>0.05 0.075</size>
+            <fontPath>${wiifontb}</fontPath>
+            <horizontalAlignment>left</horizontalAlignment>
+            <color>${textColor}</color>
+            <zIndex>9</zIndex>
+        </text>
+        <text name="playerslbl">
+            <text>Players:</text>
+            <fontSize>${gameimage}</fontSize>
+            <pos>0.69 0.5</pos>
+            <origin>1 0</origin>
+            <size>0.1 0.075</size>
+            <fontPath>${wiifontb}</fontPath>
+            <horizontalAlignment>right</horizontalAlignment>
+            <color>${textColor}</color>
+            <zIndex>9</zIndex>
+        </text>-->
+        <rating name="rating">
+            <pos>0.84 0.505</pos>
+            <origin>0.5 0</origin>
+            <size>0.04 0.05</size>
+            <color>${textColor}</color>
+            <filledPath>./assets/rating_filled.svg</filledPath>
+            <unfilledPath>./assets/rating_empty.svg</unfilledPath>
+        </rating>
+        <image name="releaseimg">
+            <pos>0.63 0.505</pos>
+            <origin>0.5 0</origin>
+            <maxSize>0.05 0.05</maxSize>
+            <path>./assets/images/date.svg</path>
+            <color>${textColor}</color>
+            <zIndex>9</zIndex>
+        </image>
+        <datetime name="release">
+            <metadata>releasedate</metadata>
+            <defaultValue>:space:</defaultValue>
+            <format>%Y</format>
+            <fontSize>${gameimage}</fontSize>
+            <pos>0.65 0.495</pos>
+            <size>0.1 0.075</size>
+            <origin>0 0</origin>
+            <fontPath>${wiifontm}</fontPath>
+            <horizontalAlignment>left</horizontalAlignment>
+            <color>${textColor}</color>
+            <zIndex>9</zIndex>
+        </datetime>
+        <badges name="badges">
+            <pos>0.76 0.6835</pos>
+            <size>0.375 0.15</size>
+            <origin>0.5 0.5</origin>
+            <direction>row</direction>
+            <lines>1</lines>
+            <itemsPerLine>5</itemsPerLine>
+            <horizontalAlignment>center</horizontalAlignment>
+            <slots>completed, controller,favorite, kidgame, manual</slots>
+            <controllerSize>0.8</controllerSize>
+            <controllerPos>0.5 0.425</controllerPos>
+            <badgeIconColor>${badgeColor}</badgeIconColor>
+            <customBadgeIcon badge="completed">./assets/badges/completed.svg</customBadgeIcon>
+            <customBadgeIcon badge="favorite">./assets/badges/favorite.svg</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">./assets/badges/kidgame.svg</customBadgeIcon>
+            <customBadgeIcon badge="collection">./assets/badges/collection.svg</customBadgeIcon>
+            <customBadgeIcon badge="controller">./assets/badges/controller.svg</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">./assets/badges/altemulator.svg</customBadgeIcon>
+            <customBadgeIcon badge="manual">./assets/badges/manual.svg</customBadgeIcon>
+            <zIndex>20</zIndex>
+        </badges>
+        <image name="badgebox">
+            <pos>0.76 0.6675</pos>
+            <size>0.43 0.145</size>
+            <origin>0.5 0.5</origin>
+            <path>./assets/images/wiitextback.svg</path>
+            <color>${baseColor}</color>
+            <zIndex>6</zIndex>
+        </image>
+        <image name="badgeboxtop">
+            <pos>0.76 0.6675</pos>
+            <size>0.43 0.145</size>
+            <origin>0.5 0.5</origin>
+            <path>./assets/images/wiitextout.svg</path>
+            <color>${baseColor}</color>
+            <zIndex>8</zIndex>
+        </image>
+        <image name="badgeboxglow">
+            <pos>0.76 0.6675</pos>
+            <size>0.43 0.15</size>
+            <origin>0.5 0.5</origin>
+            <path>./assets/images/wiitextglow.svg</path>
+            <color>${glowColor}</color>
+            <zIndex>7</zIndex>
+        </image>
+         <image name="badgeboxglow1">
+            <pos>0.761 0.67</pos>
+            <size>0.43 0.15</size>
+            <origin>0.5 0.5</origin>
+            <path>./assets/images/wiitextglow.svg</path>
+            <color>${backColor}</color>
+            <zIndex>6</zIndex>
+        </image>
+        <image name="marquee">
+            <pos>0.21 0.86</pos>
+            <maxSize>0.39 0.18</maxSize>
+            <origin>0.5 0.5</origin>
+            <imageType>marquee</imageType>
+            <interpolation>linear</interpolation>
+            <zIndex>7</zIndex>
+        </image>
+        <image name="marquee1">
+            <pos>0.2115 0.8615</pos>
+            <maxSize>0.39 0.18</maxSize>
+            <origin>0.5 0.5</origin>
+            <imageType>marquee</imageType>
+            <saturation>0</saturation>
+            <brightness>1.5</brightness>
+            <color>000000</color>
+            <zIndex>6</zIndex>
+        </image>
+        <text name="source">
+            <fontSize>${sourcefont}</fontSize>
+            <rotation>90</rotation>
+            <pos>0.765 0.325</pos>
+            <size>0.425 0.09</size>
+            <fontPath>${wiifontm}</fontPath>
+            <lineSpacing>1</lineSpacing>
+            <letterCase>capitalize</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${textColor}</color>
+            <zIndex>9</zIndex>
+        </text>
+        <text name="source2">
+            <text>${systemName}</text>
+            <fontSize>${sourcefont}</fontSize>
+            <rotation>-90</rotation>
+            <pos>-0.19 0.325</pos>
+            <size>0.425 0.09</size>
+            <fontPath>${wiifontm}</fontPath>
+            <lineSpacing>1</lineSpacing>
+            <letterCase>capitalize</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${textColor}</color>
+            <zIndex>9</zIndex>
+        </text>
+        
+        <!--<text name="devlbl">
+            <text>Developer:</text>
+            <fontSize>${gameimage}</fontSize>
+            <pos>0.05 0.765</pos>
+            <origin>0 0</origin>
+            <size>0.1 0.075</size>
+            <fontPath>${wiifontb}</fontPath>
+            <lineSpacing>1</lineSpacing>
+            <horizontalAlignment>left</horizontalAlignment>
+            <verticalAlignment>top</verticalAlignment>
+            <color>${textColor}</color>
+            <zIndex>9</zIndex>
+        </text>
+        <text name="pub">
+            <metadata>publisher</metadata>
+            <fontSize>${gameimage}</fontSize>
+            <pos>0.175 0.855</pos>
+            <size>0.225 0.09</size>
+            <fontPath>${wiifontm}</fontPath>
+            <lineSpacing>1</lineSpacing>
+            <horizontalAlignment>left</horizontalAlignment>
+            <verticalAlignment>top</verticalAlignment>
+            <color>${textColor}</color>
+            <zIndex>9</zIndex>
+        </text>
+        <text name="publbl">
+            <text>Publisher:</text>
+            <fontSize>${gameimage}</fontSize>
+            <pos>0.05 0.855</pos>
+            <origin>0 0</origin>
+            <size>0.1 0.075</size>
+            <fontPath>${wiifontb}</fontPath>
+            <lineSpacing>1</lineSpacing>
+            <horizontalAlignment>left</horizontalAlignment>
+            <verticalAlignment>top</verticalAlignment>
+            <color>${textColor}</color>
+            <zIndex>9</zIndex>
+        </text>-->
+        <text name="desc">
+            <metadata>description</metadata>
+            <fontSize>${gameimage}</fontSize>
+            <pos>0.425 0.765</pos>
+            <size>0.55 0.18</size>
+            <fontPath>${wiifontm}</fontPath>
+            <lineSpacing>1</lineSpacing>
+            <horizontalAlignment>left</horizontalAlignment>
+            <verticalAlignment>top</verticalAlignment>
+            <color>${textColor}</color>
+            <zIndex>9</zIndex>
+        </text>
+        <systemstatus name="first">
+        <pos>0.975 0.015</pos>
+        <origin>1 0</origin>
+        <color>${textColor}</color>
+        <entries>all</entries>
+        </systemstatus>
+        <clock name="clock">
+            <fontSize>0.05</fontSize>
+            <rotation>0</rotation>
+            <pos>0.975 0.05</pos>
+            <size>0.07 0.04</size>
+            <origin>1 0</origin>
+            <fontPath>./assets/fonts/digital.ttf</fontPath>
+            <horizontalAlignment>right</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${textColor}</color>
+        </clock>
+    </view>
+    </variant>
+    <variant name="full">
+        <view name="gamelist">
+        <carousel name="carousel">
+            <pos>0.26 0.025</pos>
+            <size>0.5 0.4</size>
+            <itemSize>0.5 0.4</itemSize>
+            <itemScale>1</itemScale>
+            <maxItemCount>1</maxItemCount>
+            <origin>0.5 0</origin>
+            <itemVerticalAlignment>center</itemVerticalAlignment>
+            <itemTransitions>instant</itemTransitions>
+            <imageType>marquee</imageType>
+            <color>00000000</color>
+            <textColor>FFFFFF</textColor>
+            <fontPath>${wiifontm}</fontPath>
+            <zIndex>8</zIndex>
+        </carousel>
+        <image name="marq">
+            <pos>0.26175 0.2275</pos>
+            <maxSize>0.5 0.4</maxSize>
+            <origin>0.5 0.5</origin>
+            <imageType>marquee</imageType>
+            <saturation>0</saturation>
+            <brightness>2</brightness>
+            <color>FFFFFF55</color>
+            <zIndex>7</zIndex>
+        </image>
+        <image name="menubottomfill">
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./assets/images/gameline.svg</path>
+            <color>${glowColor}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <!--<image name="syslogo1">
+            <pos>0.225 0.86</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.35 0.2</maxSize>
+            <path>./system/logos/system-logo-color/${system.theme}.svg</path>
+            <zIndex>10</zIndex>
+        </image>
+        <image name="syslogo2">
+            <pos>0.94 0.375</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.35 0.2</maxSize>
+            <rotation>90</rotation>
+            <path>./system/logos/system-logo-color/${system.theme}.svg</path>
+            <zIndex>2</zIndex>
+        </image>-->
+        <image name="menubottomfill1">
+            <pos>0 0.001</pos>
+            <size>1 1</size>
+            <path>./assets/images/gameline.svg</path>
+            <color>${backColor}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="backgroundbottom">
+            <pos>0 0.75</pos>
+            <size>1 0.25</size>
+            <path>./assets/images/fundo.png</path>
+            <tile>true</tile>
+            <tileSize>0.1 0.1</tileSize>
+            <color>${baseColor}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <video name="gameboxart">
+            <pos>0.6 0.375</pos>
+            <origin>0.5 0.5</origin>
+            <cropSize>0.8 0.75</cropSize>
+            <delay>6</delay>
+            <pillarboxes>true</pillarboxes>
+            <iterationCount>1</iterationCount>
+            <onIterationsDone>image</onIterationsDone>
+            <imageType>screenshot,cover</imageType>
+            <opacity>0.75</opacity>
+            <saturation>1</saturation>
+            <zIndex>5</zIndex>
+        </video>
+        <image name="shade">
+            <pos>0.2 0.375</pos>
+            <origin>0 0.5</origin>
+            <size>0.3 0.75</size>
+            <path>./assets/images/space.png</path>
+            <opacity>1</opacity>
+            <tile>true</tile>
+            <tileSize>0.1 0.1</tileSize>
+            <color>000000</color>
+            <colorEnd>00000000</colorEnd>
+            <zIndex>6</zIndex>
+        </image>
+        <image name="background">
+            <pos>0.5 0.375</pos>
+            <origin>0.5 0.5</origin>
+            <size>1 0.75</size>
+            <path>./assets/images/space.png</path>
+            <opacity>1</opacity>
+            <tile>true</tile>
+            <tileSize>0.1 0.1</tileSize>
+            <color>000000</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="background2">
+            <pos>0.5 0.375</pos>
+            <origin>0.5 0.5</origin>
+            <size>1.5 1.75</size>
+            <rotation>-30</rotation>
+            <path>./assets/images/fundo.png</path>
+            <tile>true</tile>
+            <opacity>0.5</opacity>
+            <tileSize>0.1 0.1</tileSize>
+            <color>${baseColor}</color>
+            <zIndex>0</zIndex>
+        </image>
+
+        <image name="buttoninner">
+            <pos>0.3 0.86</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.3 0.175</size>
+            <path>./assets/images/buttonfill.svg</path>
+            <color>${baseColor}E8</color>
+            <zIndex>10</zIndex>
+        </image>
+        <image name="buttoninnerH">
+            <pos>0.3 0.86</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.3 0.175</size>
+            <path>./assets/images/buttonfill2.svg</path>
+            <color>000000</color>
+            <zIndex>9</zIndex>
+        </image>
+        <image name="buttoninnerB">
+            <pos>0.3 0.86</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.3 0.175</size>
+            <path>./assets/images/buttonfill.svg</path>
+            <color>${baseColor}</color>
+            <zIndex>8</zIndex>
+        </image>
+        <image name="buttonoutline">
+            <pos>0.3 0.86</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.3 0.175</size>
+            <path>./assets/images/buttonoutline.svg</path>
+            <color>${glowColor}</color>
+            <zIndex>11</zIndex>
+        </image>
+        <image name="buttonoutline2">
+            <pos>0.3025 0.8625</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.3 0.175</size>
+            <path>./assets/images/buttonoutline.svg</path>
+            <color>${backColor}</color>
+            <zIndex>7</zIndex>
+        </image>
+        <image name="buttoninnerR">
+            <pos>0.7 0.86</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.3 0.175</size>
+            <path>./assets/images/buttonfill.svg</path>
+            <color>${baseColor}E8</color>
+            <zIndex>10</zIndex>
+        </image>
+        <image name="buttoninnerHR">
+            <pos>0.7 0.86</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.3 0.175</size>
+            <path>./assets/images/buttonfill2.svg</path>
+            <color>000000</color>
+            <zIndex>9</zIndex>
+        </image>
+        <image name="buttoninnerBR">
+            <pos>0.7 0.86</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.3 0.175</size>
+            <path>./assets/images/buttonfill.svg</path>
+            <color>${baseColor}</color>
+            <zIndex>8</zIndex>
+        </image>
+        <image name="buttonoutlineR">
+            <pos>0.7 0.86</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.3 0.175</size>
+            <path>./assets/images/buttonoutline.svg</path>
+            <color>${glowColor}</color>
+            <zIndex>11</zIndex>
+        </image>
+        <image name="buttonoutlineR2">
+            <pos>0.7025 0.8625</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.3 0.175</size>
+            <path>./assets/images/buttonoutline.svg</path>
+            <color>${backColor}</color>
+            <zIndex>8</zIndex>
+        </image>
+        <text name="play">
+            <text>Play</text>
+            <fontSize>0.08</fontSize>
+            <pos>0.3 0.86</pos>
+            <size>0.3 0.15</size>
+            <origin>0.5 0.5</origin>
+            <fontPath>${wiifontm}</fontPath>
+            <lineSpacing>1</lineSpacing>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${textColor}99</color>
+            <zIndex>11</zIndex>
+        </text>
+        <text name="back">
+            <text>Back</text>
+            <fontSize>0.08</fontSize>
+            <pos>0.7 0.86</pos>
+            <size>0.3 0.15</size>
+            <origin>0.5 0.5</origin>
+            <fontPath>${wiifontm}</fontPath>
+            <lineSpacing>1</lineSpacing>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${textColor}99</color>
+            <zIndex>11</zIndex>
+        </text>
+        <badges name="badges">
+            <pos>0.025 0.425</pos>
+            <size>0.2 0.315</size>
+            <origin>0 0</origin>
+            <direction>column</direction>
+            <lines>2</lines>
+            <itemsPerLine>3</itemsPerLine>
+            <horizontalAlignment>left</horizontalAlignment>
+            <slots>completed, controller,favorite, kidgame, manual</slots>
+            <controllerSize>0.8</controllerSize>
+            <controllerPos>0.5 0.425</controllerPos>
+            <badgeIconColor>${badgeColor}</badgeIconColor>
+            <customBadgeIcon badge="completed">./assets/badges/completed.svg</customBadgeIcon>
+            <customBadgeIcon badge="favorite">./assets/badges/favorite.svg</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">./assets/badges/kidgame.svg</customBadgeIcon>
+            <customBadgeIcon badge="collection">./assets/badges/collection.svg</customBadgeIcon>
+            <customBadgeIcon badge="controller">./assets/badges/controller.svg</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">./assets/badges/altemulator.svg</customBadgeIcon>
+            <customBadgeIcon badge="manual">./assets/badges/manual.svg</customBadgeIcon>
+            <zIndex>20</zIndex>
+        </badges>
+        <text name="source">
+            <visible>false</visible>
+                <!--<fontSize>${sourcefont}</fontSize>
+                <pos>0.025 0.855</pos>
+                <size>0.425 0.05</size>
+                <fontPath>${wiifontb}</fontPath>
+                <lineSpacing>1</lineSpacing>
+                <letterCase>capitalize</letterCase>
+                <horizontalAlignment>center</horizontalAlignment>
+                <verticalAlignment>center</verticalAlignment>
+                <color>${textColor}</color>
+                <zIndex>9</zIndex>-->
+        </text>
+        <systemstatus name="first">
+        <pos>0.06 0.0075</pos>
+        <origin>0 0</origin>
+        <color>${badgeColor}</color>
+        <entries>all</entries>
+        </systemstatus>
+        <clock name="clock">
+            <fontSize>0.04</fontSize>
+            <rotation>0</rotation>
+            <pos>0.01 0.005</pos>
+            <size>0.05 0.04</size>
+            <origin>0 0</origin>
+            <fontPath>./assets/fonts/digital.ttf</fontPath>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${badgeColor}</color>
+        </clock>
+        
+
+        <!--<text name="systemm">
+            <text>${systemName}</text>
+            <fontSize>${sourcefont}</fontSize>
+            <pos>0.025 0.78</pos>
+            <size>0.425 0.05</size>
+            <fontPath>${wiifontb}</fontPath>
+            <lineSpacing>1</lineSpacing>
+            <letterCase>capitalize</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${textColor}</color>
+            <zIndex>9</zIndex>
+    </text>-->
+        </view>
+        
+    </variant>
+    <!-- If you want to add custom sounds ucomment the next block and add your sounds at the paths indicated below -->
+    <view name="all">
+        <sound name="systembrowse">
+            <path>./assets/sounds/system.wav</path>
+        </sound>
+        <sound name="quicksysselect">
+            <path>./assets/sounds/page.wav</path>
+        </sound>
+        <sound name="select">
+            <path>./assets/sounds/launch.wav</path>
+        </sound>
+        <sound name="back">
+            <path>./assets/sounds/back.wav</path>
+        </sound>
+        <sound name="scroll">
+            <path>./assets/sounds/scroll.wav</path>
+        </sound>
+        <sound name="favorite">
+            <path>./assets/sounds/fave.wav</path>
+        </sound>
+        <sound name="launch">
+            <path>./assets/sounds/boot.wav</path>
+        </sound>
+    </view>
+</theme>
