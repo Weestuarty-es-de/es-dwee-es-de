@@ -31,12 +31,12 @@
     </colorScheme>
     <colorScheme name="weestuarty">
         <variables>
-            <glowColor>d4af37</glowColor>
+            <glowColor>a67c00</glowColor>
             <glowColorEnd>d4af37</glowColorEnd>
             <backColor>A67c00</backColor>
             <gridColor>444444</gridColor>
             <gridColorEnd>444444</gridColorEnd>
-            <textColor>d4af37</textColor>
+            <textColor>a67c00</textColor>
             <badgeColor>a67c00</badgeColor>
             <textselectColor>000000</textselectColor>
             <baseColor>333333</baseColor>
