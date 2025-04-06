@@ -95,6 +95,20 @@
         </variables>
     </colorScheme>
 
+    <colorScheme name="new">
+        <variables>
+            <glowColor>9a2257</glowColor>
+            <glowColorEnd>9a2257</glowColorEnd>
+            <backColor>272929</backColor>
+            <gridColor>75a833</gridColor>
+            <gridColorEnd>75a833</gridColorEnd>
+            <textColor>272929</textColor>
+            <badgeColor>84d07d</badgeColor>
+            <textselectColor>000000</textselectColor>
+            <baseColor>c4bebb</baseColor>
+        </variables>
+    </colorScheme>
+
     <fontSize name="medium">
     <variables>
         <textlist>0.04</textlist>
@@ -135,8 +149,8 @@
             <pos>0.5 0.975</pos>
         </helpsystem>
         <helpsystem name="help">
-            <textColor>${glowColor}</textColor>
-            <iconColor>${glowColor}</iconColor>
+            <textColor>${glowColorEnd}</textColor>
+            <iconColor>${glowColorEnd}</iconColor>
             <fontPath>${wiifontb}</fontPath>
             <fontSize>${helpfont}</fontSize>
             <entryRelativeScale>0.7</entryRelativeScale>
@@ -328,7 +342,7 @@
             <letterCase>uppercase</letterCase>
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>
-            <color>${backColor}</color>
+            <color>${glowColorEnd}</color>
             <zIndex>8</zIndex>
         </text>
         <clock name="clock">

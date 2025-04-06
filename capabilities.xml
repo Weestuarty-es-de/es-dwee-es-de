@@ -58,6 +58,9 @@
     <colorScheme name="shorty">
         <label>RetroDeck</label>
     </colorScheme>
+    <colorScheme name="new">
+        <label>Gameboy</label>
+    </colorScheme>
 
     <variant name="text">
         <label>textlist</label>
