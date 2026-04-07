@@ -361,27 +361,18 @@
         <pos>0.35 0.79</pos>
         <origin>0 0</origin>
         <color>${textColor}88</color>
-        <entries>wifi, bluetooth</entries>
-        <scope>view</scope>
-        </systemstatus>
-<systemstatus name="second">
-        <pos>0.65 0.79</pos>
-        <origin>1 0</origin>
-        <color>${textColor}88</color>
-        <entries>battery</entries>
         <scope>view</scope>
         </systemstatus>
         <systemstatus name="menustatus">
-        <pos>0.98 0.0075</pos>
+        <pos>0.98 0.95</pos>
         <origin>1 0</origin>
         <color>${textColor}</color>
-        <entries>all</entries>
         <scope>menu</scope>
         </systemstatus>
         <clock name="menuclock">
             <fontSize>0.04</fontSize>
             <rotation>0</rotation>
-            <pos>0.01 0.005</pos>
+            <pos>0.01 0.95</pos>
             <size>0.05 0.04</size>
             <origin>0 0</origin>
             <scope>menu</scope>
