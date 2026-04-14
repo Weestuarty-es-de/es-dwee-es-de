@@ -68,7 +68,9 @@
     <colorScheme name="weestuarty">
         <label>Gold</label>
     </colorScheme>
-
+<colorScheme name="gc">
+        <label>Cube</label>
+    </colorScheme>
     <colorScheme name="weeeilidh">
         <label>Rose</label>
     </colorScheme>
