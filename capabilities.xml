@@ -80,6 +80,9 @@
     <colorScheme name="retro">
         <label>Retro</label>
     </colorScheme>
+    <colorScheme name="retrop">
+        <label>Retro Power</label>
+    </colorScheme>
     <colorScheme name="shorty">
         <label>RetroDeck</label>
     </colorScheme>

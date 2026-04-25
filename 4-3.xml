@@ -14,7 +14,7 @@
             <size>0.5 0.15</size>
         </text>
         <helpsystem name="help">
-            <pos>0.5 0.98</pos>
+            <pos>0.501 0.975</pos>
         </helpsystem>
         <image name="mlcircle">
             <pos>0.04 0.75</pos>
@@ -76,9 +76,6 @@
             <pos>-0.25 0.325</pos>
             <size>0.55 0.09</size>
         </text>
-        <helpsystem name="help">
-            <fontSize>0.03</fontSize>
-        </helpsystem>
         <badges name="badges">
             <pos>0.76 0.6875</pos>
             </badges>
