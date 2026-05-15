@@ -60,6 +60,7 @@
 
     <fontSize>medium</fontSize>
     <fontSize>large</fontSize>
+    <fontSize>x-large</fontSize>
 
     <colorScheme name="weeblue">
         <label>Blue</label>
@@ -96,6 +97,10 @@
      </variant>
      <variant name="full">
         <label>Fullscreen</label>
+        <selectable>true</selectable>
+     </variant>
+     <variant name="grid">
+        <label>Grid</label>
         <selectable>true</selectable>
      </variant>
     
