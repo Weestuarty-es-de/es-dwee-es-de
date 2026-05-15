@@ -1,9 +1,19 @@
 <theme>
     <include>./../theme.xml</include>
-
+    <variant name="text,full">
         <view name="gamelist">
             <text name="source">
             <metadata>sourceSystemFullname</metadata>
             </text>
         </view>
+</variant>
+<variant name="grid">
+    <view name="gamelist">
+        <grid name="system_grid">
+            <imageType>marquee</imageType>
+            <imageFit>contain</imageFit>
+        </grid>
+    </view>
+</variant>
+
 </theme>
