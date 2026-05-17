@@ -749,7 +749,7 @@
                 <imageType>marquee</imageType>
                 <saturation>0</saturation>
                 <brightness>1.5</brightness>
-                <color>000000</color>
+                <color>${textColor}</color>
                 <zIndex>6</zIndex>
             </image>
             <text name="source">
@@ -1514,7 +1514,7 @@
                 <imageType>marquee</imageType>
                 <saturation>0</saturation>
                 <brightness>1.5</brightness>
-                <color>000000</color>
+                <color>${textColor}</color>
                 <zIndex>6</zIndex>
             </image>
             
