@@ -437,6 +437,7 @@
                 <primaryColor>${textColor}</primaryColor>
                 <secondaryColor>${textColor}</secondaryColor>
                 <systemNameSuffix>false</systemNameSuffix>
+                <indicators>none</indicators>
                 <fontPath>${wiifontm}</fontPath>
                 <zIndex>7</zIndex>
             </textlist>
