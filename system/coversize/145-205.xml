@@ -1,76 +1,755 @@
-<theme>
-
-   <aspectRatio name="16:9">
-      <fontSize name="medium">
-         <variables>
-            <gridItemSize>0.108 0.2915555556</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-      <fontSize name="large">
-         <variables>
-            <gridItemSize>0.135 0.3644444444</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-      <fontSize name="x-large">
-         <variables>
-            <gridItemSize>0.18 0.4859259259</gridItemSize><!-- 256 256 -->
-         </variables>
-      </fontSize>
-   </aspectRatio>
-
-
-   <aspectRatio name="16:10">
-      <fontSize name="medium">
-         <variables>
-            <gridItemSize>0.108 0.2624</gridItemSize><!-- 288 394 -->
-         </variables>
-      </fontSize>
-      <fontSize name="large">
-         <variables>
-            <gridItemSize>0.135 0.328</gridItemSize><!-- 288 394 -->
-         </variables>
-      </fontSize>
-      <fontSize name="x-large">
-         <variables>
-            <gridItemSize>0.18 0.4373333333</gridItemSize><!-- 288 288 -->
-         </variables>
-      </fontSize>
-   </aspectRatio>
-
-   <aspectRatio name="4:3">
-      <fontSize name="medium">
-         <variables>
-            <gridItemSize>0.135 0.2733333333</gridItemSize><!-- 240 328.125 -->
-         </variables>
-      </fontSize>
-      <fontSize name="large">
-         <variables>
-            <gridItemSize>0.18 0.3644444444</gridItemSize><!-- 240 328.125 -->
-         </variables>
-      </fontSize>
-      <fontSize name="x-large">
-         <variables>
-            <gridItemSize>0.27 0.5466666667</gridItemSize><!-- 240 240 -->
-         </variables>
-      </fontSize>
-   </aspectRatio>
-
-   <aspectRatio name="19.5:9">
-      <fontSize name="medium">
-         <variables>
-            <gridItemSize>0.108 0.3308275862</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-      <fontSize name="large">
-         <variables>
-            <gridItemSize>0.135 0.4441666667</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-      <fontSize name="x-large">
-         <variables>
-            <gridItemSize>0.18 0.5922222222</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-   </aspectRatio>
-
-</theme>
+<theme>																									
+																									
+<aspectRatio name="4:3">																									
+<fontSize name="medium">																									
+<variables>																									
+<gridItemSize>0.108 0.2035862</gridItemSize>																									
+</variables>																									
+</fontSize>																									
+<fontSize name="large">																									
+<variables>																									
+<gridItemSize>0.135 0.2544827</gridItemSize>																									
+</variables>																									
+</fontSize>																									
+<fontSize name="x-large">																									
+<variables>																									
+<gridItemSize>0.18 0.3393103</gridItemSize>																									
+</variables>																									
+</fontSize>																									
+</aspectRatio>																									
+																									
+<aspectRatio name="16:9">																									
+<fontSize name="medium">																									
+<variables>																									
+<gridItemSize>0.108 0.2714482</gridItemSize>																									
+</variables>																									
+</fontSize>																									
+<fontSize name="large">																									
+<variables>																									
+<gridItemSize>0.135 0.3393103</gridItemSize>																									
+</variables>																									
+</fontSize>																									
+<fontSize name="x-large">																									
+<variables>																									
+<gridItemSize>0.18 0.4524137</gridItemSize>																									
+</variables>																									
+</fontSize>																									
+</aspectRatio>																									
+																									
+<aspectRatio name="16:10">																									
+<fontSize name="medium">																									
+<variables>																									
+<gridItemSize>0.108 0.2443034</gridItemSize>																									
+</variables>																									
+</fontSize>																									
+<fontSize name="large">																									
+<variables>																									
+<gridItemSize>0.135 0.3053793</gridItemSize>																									
+</variables>																									
+</fontSize>																									
+<fontSize name="x-large">																									
+<variables>																									
+<gridItemSize>0.18 0.4071724</gridItemSize>																									
+</variables>																									
+</fontSize>																									
+</aspectRatio>																									
+																									
+<aspectRatio name="19.5:9">																									
+<fontSize name="medium">																									
+<variables>																									
+<gridItemSize>0.108 0.3308275</gridItemSize>																									
+</variables>																									
+</fontSize>																									
+<fontSize name="large">																									
+<variables>																									
+<gridItemSize>0.135 0.4135344</gridItemSize>																									
+</variables>																									
+</fontSize>																									
+<fontSize name="x-large">																									
+<variables>																									
+<gridItemSize>0.18 0.5513793</gridItemSize>																									
+</variables>																									
+</fontSize>																									
+</aspectRatio>																									
+																									
+<aspectRatio name="21:9">																									
+<fontSize name="medium">																									
+<variables>																									
+<gridItemSize>0.108 0.3562758</gridItemSize>																									
+</variables>																									
+</fontSize>																									
+<fontSize name="large">																									
+<variables>																									
+<gridItemSize>0.135 0.4453448</gridItemSize>																									
+</variables>																									
+</fontSize>																									
+<fontSize name="x-large">																									
+<variables>																									
+<gridItemSize>0.18 0.5937931</gridItemSize>																									
+</variables>																									
+</fontSize>																									
+</aspectRatio>																									
+																									
+																									
+</theme>																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
