@@ -36,13 +36,13 @@
             <glowColor>0000FF</glowColor>
             <glowColorEnd>0000FF</glowColorEnd>
             <helpglow>4682b4</helpglow>
-            <backColor>108FBA</backColor>
+            <backColor>0041c2</backColor>
             <gridColor>444444</gridColor>
             <gridColorEnd>444444</gridColorEnd>
             <textColor>DDDDDD</textColor>
             <badgeColor>DDDDDD</badgeColor>
             <textselectColor>000000</textselectColor>
-            <baseColor>333333</baseColor>
+            <baseColor>111111</baseColor>
         </variables>
     </colorScheme>
     <colorScheme name="gc">
