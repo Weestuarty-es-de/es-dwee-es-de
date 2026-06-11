@@ -21,6 +21,7 @@
         <variables>
             <glowColor>34BEED</glowColor>
             <glowColorEnd>34BEED</glowColorEnd>
+            <helpglow>34BEED</helpglow>
             <backColor>108FBA</backColor>
             <gridColor>CCCCCC</gridColor>
             <gridColorEnd>CCCCCC</gridColorEnd>
@@ -30,10 +31,25 @@
             <baseColor>FFFFFF</baseColor>
         </variables>
     </colorScheme>
+    <colorScheme name="dodicus">
+        <variables>
+            <glowColor>34BEED</glowColor>
+            <glowColorEnd>34BEED</glowColorEnd>
+            <helpglow>4682b4</helpglow>
+            <backColor>108FBA</backColor>
+            <gridColor>444444</gridColor>
+            <gridColorEnd>444444</gridColorEnd>
+            <textColor>DDDDDD</textColor>
+            <badgeColor>DDDDDD</badgeColor>
+            <textselectColor>000000</textselectColor>
+            <baseColor>333333</baseColor>
+        </variables>
+    </colorScheme>
     <colorScheme name="gc">
         <variables>
             <glowColor>b0aad5</glowColor>
             <glowColorEnd>b0aad5</glowColorEnd>
+            <helpglow>b0aad5</helpglow>
             <backColor>756ab6</backColor>
             <gridColor>898989</gridColor>
             <gridColorEnd>898989</gridColorEnd>
@@ -47,6 +63,7 @@
         <variables>
             <glowColor>a67c00</glowColor>
             <glowColorEnd>d4af37</glowColorEnd>
+            <helpglow>D4af37</helpglow>
             <backColor>A67c00</backColor>
             <gridColor>444444</gridColor>
             <gridColorEnd>444444</gridColorEnd>
@@ -60,6 +77,7 @@
         <variables>
             <glowColor>BE013C</glowColor>
             <glowColorEnd>BE013c</glowColorEnd>
+            <helpglow>be013c</helpglow>
             <backColor>950217</backColor>
             <gridColor>450c1c</gridColor>
             <gridColorEnd>450c1c</gridColorEnd>
@@ -73,6 +91,7 @@
         <variables>
             <glowColor>a57a4f</glowColor>
             <glowColorEnd>a57a4f</glowColorEnd>
+            <helpglow>a57a4f</helpglow>
             <backColor>821122</backColor>
             <gridColor>561420</gridColor>
             <gridColorEnd>561420</gridColorEnd>
@@ -86,6 +105,7 @@
         <variables>
             <glowColor>9a2257</glowColor>
             <glowColorEnd>9a2257</glowColorEnd>
+            <helpglow>9a2257</helpglow>
             <backColor>000000</backColor>
             <gridColor>E4DeDb</gridColor>
             <gridColorEnd>E4DeDb</gridColorEnd>
@@ -100,6 +120,7 @@
         <variables>
             <glowColor>5E3427</glowColor>
             <glowColorEnd>5e3427</glowColorEnd>
+            <helpglow>5e3427</helpglow>
             <backColor>ca9852</backColor>
             <gridColor>d3c09f</gridColor>
             <gridColorEnd>d3c09f</gridColorEnd>
@@ -113,6 +134,7 @@
         <variables>
             <glowColor>c758e6</glowColor>
             <glowColorEnd>1b9fff</glowColorEnd>
+            <helpglow>1b9fff</helpglow>
             <backColor>1b9FFF</backColor>
             <gridColor>c758b6</gridColor>
             <gridColorEnd>1b9FFF</gridColorEnd>
@@ -127,6 +149,7 @@
         <variables>
             <glowColor>9a2257</glowColor>
             <glowColorEnd>9a2257</glowColorEnd>
+            <helpglow>9a2257</helpglow>
             <backColor>272929</backColor>
             <gridColor>75a833</gridColor>
             <gridColorEnd>75a833</gridColorEnd>
@@ -190,8 +213,8 @@
                 <pos>0.5 0.975</pos>
             </helpsystem>
             <helpsystem name="help">
-                <textColor>${glowColorEnd}</textColor>
-                <iconColor>${glowColorEnd}</iconColor>
+                <textColor>${helpglow}</textColor>
+                <iconColor>${helpglow}</iconColor>
                 <fontPath>${wiifontb}</fontPath>
                 <fontSize>${helpfont}</fontSize>
                 <entryRelativeScale>0.7</entryRelativeScale>
@@ -383,7 +406,7 @@
                 <letterCase>uppercase</letterCase>
                 <horizontalAlignment>center</horizontalAlignment>
                 <verticalAlignment>center</verticalAlignment>
-                <color>${glowColorEnd}</color>
+                <color>${helpglow}</color>
                 <zIndex>8</zIndex>
             </text>
             <clock name="clock">

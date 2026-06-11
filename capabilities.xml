@@ -64,6 +64,9 @@
     <colorScheme name="weeblue">
         <label>Blue</label>
     </colorScheme>
+    <colorScheme name="dodicus">
+        <label>Blue (darkmode)</label>
+    </colorScheme>
 
     <colorScheme name="weestuarty">
         <label>Gold</label>
