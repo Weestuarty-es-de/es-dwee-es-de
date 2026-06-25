@@ -12,6 +12,7 @@
         <grid name="system_grid">
             <imageType>marquee</imageType>
             <imageFit>contain</imageFit>
+            <imageCornerRadius>0.0</imageCornerRadius>
         </grid>
     </view>
 </variant>
