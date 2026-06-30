@@ -97,5 +97,36 @@
         </image>
     </view>
     </variant>
+    <variant name="grid">
+    <view name="gamelist">
+        <text name="source">
+        <pos>0.705 0.325</pos>
+        <size>0.55 0.09</size>
+    </text>
+        <text name="source2">
+            <pos>-0.25 0.325</pos>
+            <size>0.55 0.09</size>
+        </text>
+        <badges name="badges">
+            <pos>0.78 0.6875</pos>
+            </badges>
+        <image name="badgebox">
+            <pos>0.78 0.6575</pos>
+            <size>0.43 0.1</size>
+        </image>
+        <image name="badgeboxtop">
+            <pos>0.78 0.6575</pos>
+            <size>0.43 0.1</size>
+        </image>
+        <image name="badgeboxglow">
+            <pos>0.78 0.6575</pos>
+            <size>0.43 0.105</size>
+        </image>
+         <image name="badgeboxglow1">
+            <pos>0.781 0.66</pos>
+            <size>0.43 0.105</size>
+        </image>
+    </view>
+    </variant>
         
 </theme>

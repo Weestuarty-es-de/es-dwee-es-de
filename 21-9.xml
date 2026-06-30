@@ -71,4 +71,13 @@
             </textlist>
     </view>
       </variant>  
+      <variant name="grid">
+    <view name="gamelist">
+        <badges name="badges">
+            <pos>0.77 0.67</pos>
+            <size>0.39 0.11</size>
+            </badges>
+            
+    </view>
+      </variant>  
 </theme>
